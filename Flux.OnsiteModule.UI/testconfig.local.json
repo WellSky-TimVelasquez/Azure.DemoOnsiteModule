@@ -1,0 +1,42 @@
+{
+  
+  //sqa
+  "AppUrl": "https://ltsqaol7601.wellsky.com/BCOnsiteUI/index.html", //Menthion the URL of the application based on the environment
+  //dev
+  //"AppUrl": "https://ltmobsqa2k1601.mediware.com/DEV_BCOnsiteUI/index.html", //Menthion the URL of the application based on the environment
+
+  
+ // "AppUrl": "http://ltsqaol7601/BCOnsiteUI/index.html", //Menthion the URL of the application based on the environment
+ // "AppUrl": "http://ltmobsqa2k1601/DEV_BCOnsiteUI/index.html", //Menthion the URL of the application based on the environment
+
+  "BrowserType": "Chrome", //Mention the browser on which you want to run your tests viz., Chrome, IE, Firefox, Safari, Android, IOS. If you want to run on new browser please reach out to Team Phobos for support.
+
+  // You can provide application credentials as below to access the application
+  //OBK User Name
+  "AppUserName": "autusr",
+  "AppPassword": "autusr1",
+  //DAL User Name
+  //"AppUserName": "autdal",
+  //"AppPassword": "autdal1",
+
+
+
+  // Below mentioned are waits which application should use to wait (in seconds) for an element.
+  // Always keep Implicit wait as 10 seconds
+  // You can set page other waits times based on application performace and benchmark application performance
+  "ImplicitWaitTimeout": "10",
+  "PageLoadTimeout": "60",
+  "ScriptTimeout": "60",
+  "SmallWait": "30",
+  "MediumWait": "120",
+  "LargeWait": "300",
+
+  "TestDataPath": "path of the external testdata file",
+
+  // Below mentioned are detials to store and display log
+  "logFolderPath": "C:\\Logs", // Folder path where you want to store your log
+  "logLevel": "Info", // logLevel can be 'Info', 'Debug', 'Error', 'Warning', 'All' by default it will be 'Info'. If you wish to change you can change it here
+  "logType": "file" // logType can be 'file' or 'console'. If you want to store log into file please choose file, if you wnat to display the same in console choose console.
+
+  //If you want to add any other configuration that is project specific you can add them as key value pairs as above.
+}
